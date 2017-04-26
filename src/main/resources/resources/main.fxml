@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="130.0" prefWidth="470.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ru.redserver.assetsrenamer.Controller">
+	<children>
+		<Button fx:id="startButton" layoutX="368.0" layoutY="88.0" mnemonicParsing="false" prefHeight="28.0" prefWidth="70.0" text="Пуск" AnchorPane.rightAnchor="12.0" />
+		<Label layoutX="14.0" layoutY="16.0" text="Файл индекса:" AnchorPane.leftAnchor="14.0" AnchorPane.topAnchor="16.0" />
+		<TextField fx:id="indexFileInput" layoutX="100.0" layoutY="10.0" prefHeight="28.0" prefWidth="285.0" promptText="Файл не выбран" AnchorPane.leftAnchor="110.0" AnchorPane.rightAnchor="53.0" AnchorPane.topAnchor="10.0" />
+		<Label layoutX="15.0" layoutY="53.0" text="Действие:" AnchorPane.leftAnchor="15.0" AnchorPane.topAnchor="53.0" />
+		<ChoiceBox fx:id="choiceAction" layoutX="100.0" layoutY="48.0" prefHeight="28.0" prefWidth="340.0" AnchorPane.leftAnchor="110.0" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="48.0" />
+		<ProgressBar fx:id="progressBar" layoutX="14.0" layoutY="88.0" prefHeight="29.0" prefWidth="346.0" progress="0.0" AnchorPane.leftAnchor="14.0" AnchorPane.rightAnchor="90.0" />
+		<Button fx:id="buttonBrowse" layoutX="369.0" layoutY="23.0" mnemonicParsing="false" prefHeight="28.0" prefWidth="37.0" text="..." AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="10.0" />
+	</children>
+</AnchorPane>
